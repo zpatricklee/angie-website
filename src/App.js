@@ -13,7 +13,10 @@ function App() {
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/angie-website" element={<HomePage />} />
+      <Route path="angiejholee.com" element={<HomePage />} />
+      <Route path="angiejholee.com/bio" element={<BioPage />} />
       <Route path="/bio" element={<BioPage />} />
+      <Route path="angiejholee.com/connect" element={<ConnectPage />} />
       <Route path="/connect" element={<ConnectPage />} />
       <Route path="/headshots" element={<HeadshotsPage />} />
       <Route path="/reels" element={<ActorReelsPage />} />
