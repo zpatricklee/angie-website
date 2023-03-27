@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route } from 'react-router-dom';
+import Layout from './components/layout/Layout';
+import HomePage from './pages/HomePage';
+import ConnectPage from './pages/ConnectPage';
+import ModelingPage from './pages/ModelingPage';
+import HeadshotsPage from './pages/HeadshotsPage';
+import ProductionBTSPage from './pages/ProductionBTSPage';
+import ActorReelsPage from './pages/ActorReels';
+import BioPage from './pages/BioPage';
+import React, { useState } from 'react';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // <Layout>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/bio" element={<BioPage />} />
+      <Route path="/connect" element={<ConnectPage />} />
+      <Route path="/headshots" element={<HeadshotsPage />} />
+      <Route path="/reels" element={<ActorReelsPage />} />
+      <Route path="/productionBTS" element={<ProductionBTSPage />} />
+      <Route path="/modeling" element={<ModelingPage />} />
+    </Routes>
+    // </Layout>
   );
 }
 

@@ -1,0 +1,177 @@
+/* import Montserrat font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+  /* --navbar-bg-color: #A2C4C9; */
+  /* --navbar-bg-color: #383533; */
+  --navbar-bg-color: #91b1b6;
+  /* overflow: hidden; */
+  
+}
+
+.hamburger-menu {
+  display: none;
+}
+
+.container {
+  position: relative;
+  height: 12vh;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  width: 100vw;
+  background-color: var(--navbar-bg-color);
+ /* #8faab3; */
+  z-index: 1;
+}
+
+.title {
+  text-align: center;
+  font-size: 3rem;
+  padding-top: 4vh;
+}
+
+.nav-bar {
+  text-align: center;
+  padding-top: 1vh;
+  /* padding-bottom: 2vh; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.nav-bar li {
+  font-size: 1.5rem;
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.75);
+  
+}
+
+.menu {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: -500px;
+  width: 500px;
+  height: 100vh;
+  background-color: #8f9e8bc9;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  transform: translateX(500px);
+  transition: all 0.3s ease-in-out;
+  font-size: 32px;
+}
+
+.menu li:last-child {
+  border-bottom: none;
+}
+
+.menu-button {
+  visibility: hidden;
+  position: absolute;
+  top: 5vh;
+  right: 20px;
+  height: 33px;
+  width: 33px;
+  margin: auto;
+  z-index: 3;
+  /* border-radius: 16.5px; */
+  background-color: rgba(0, 0, 0, 0.2);
+
+}
+
+.menu-button .show {
+  display: block;
+}
+
+.menu-button .hide {
+  display: none;
+}
+
+.menu li {
+  text-align: left;
+  padding-left: 10%;
+  padding-top: 4.5vh;
+}
+
+.menu.open {
+  display: block;
+  /* right: 0px; */
+  transform: translateX(-500px);
+  opacity: 1;
+  z-index: 1;
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+@media (max-width: 1000px) {
+  .title {
+    /* padding-right: 30px; */
+    font-size: 3rem;
+  }
+
+  .hamburger-menu-icon-bar {
+    font-size: 3rem;
+  }
+
+  .nav-bar {
+    /* visibility: hidden; */
+    display: none;
+  }
+
+  .container {
+    height: 12vh;
+  }
+
+  .hamburger-menu {
+    background-color: rgb(128, 128, 128);
+    color: white;
+    display: block;
+    visibility: visible;
+    margin: auto;
+    /* width: 100%; */
+  }
+
+  .menu-button {
+  /* transform: scale(2); */
+  visibility: visible;
+  }
+}
+
+@media (max-width: 540px) {
+  .title {
+    padding-right: 35px;
+    font-size: 2rem;
+  }
+
+  .nav-bar {
+    visibility: hidden;
+  }
+
+  .menu-button {
+    /* transform: scale(2); */
+    visibility: visible;
+    position: absolute;
+    top: 4.3vh;
+    right: 25px;
+    height: 33px;
+    width: 33px;
+  }
+
+  .menu {
+    width: 100vw;
+  }
+
+}

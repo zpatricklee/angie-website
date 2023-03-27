@@ -1,0 +1,19 @@
+.container {
+  background-color: lightblue;
+  position: relative;
+  
+  height: 100%;
+  width: 100vw;
+  /* left: 5%; */
+  margin: 0 auto;
+  /* top: 20%; */
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow-x: hidden;
+
+}
+
+
+

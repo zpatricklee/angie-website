@@ -1,0 +1,20 @@
+.card {
+  /* background-color: white; */
+  border-radius: 6px;
+  /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); */
+  text-align: center;  
+  
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+@media (max-width: 480px) {
+  .card {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-width: 100%;
+    -moz-column-width: 100%;
+    column-width: 100%;
+  }
+}

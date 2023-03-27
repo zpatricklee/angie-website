@@ -1,0 +1,76 @@
+.connect-page {
+  position: absolute;
+  background-color: none;
+  top: 0;
+  background-image: url(../resources/angjan-26.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  position: relative;
+  top: 20vh;
+  width: 30vw;
+  height: 80vh;
+  text-align: center;
+  justify-content: start;
+  /* margin: auto; */
+  margin-left: 0px;
+
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.social {
+  height: 200px;
+
+  /* flex: 1; */
+  padding-top: 50px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.imdb {
+  font-size: 50px;
+  color: #F5C518;
+}
+
+.icon:hover {
+  animation: transform(scale(4));
+}
+
+.social a {
+  height: 1000px;
+}
+
+
+@media (max-width: 540px) {
+  .container {
+    /* top: 10vh; */
+    height: 90vh;
+    width: 25vw;
+    top: 10vh;
+  }
+  .social {
+    padding-top: 40px;
+    width: 100%;
+    transform: scale(0.6);
+  }
+}
+
+@media (max-height: 660px) {
+  .container {
+    /* top: 10vh; */
+    height: 93vh;
+    width: 25vw;
+    top: 7vh;
+  }
+  .social {
+    transform: scale(0.45);
+  }
+}
