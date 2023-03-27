@@ -11,11 +11,8 @@ import React from 'react';
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<HomePage />} />
-      <Route path="/angie-website" element={<HomePage />} />
-      <Route path="angie-website/bio" element={<BioPage />} />
+      <Route exact path="/" element={<HomePage />} />
       <Route path="/bio" element={<BioPage />} />
-      <Route path="angie-website/connect" element={<ConnectPage />} />
       <Route path="/connect" element={<ConnectPage />} />
       <Route path="/headshots" element={<HeadshotsPage />} />
       <Route path="/reels" element={<ActorReelsPage />} />
