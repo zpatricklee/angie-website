@@ -13,9 +13,9 @@ function App() {
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/angie-website" element={<HomePage />} />
-      <Route path="/angie-website/bio" element={<BioPage />} />
+      <Route path="angie-website/bio" element={<BioPage />} />
       <Route path="/bio" element={<BioPage />} />
-      <Route path="/angie-website/connect" element={<ConnectPage />} />
+      <Route path="angie-website/connect" element={<ConnectPage />} />
       <Route path="/connect" element={<ConnectPage />} />
       <Route path="/headshots" element={<HeadshotsPage />} />
       <Route path="/reels" element={<ActorReelsPage />} />
