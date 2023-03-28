@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import {Link} from 'react-router-dom';
 import classes from './NavBar.module.css';
 import { FaBars, FaTimes } from 'react-icons/fa';
 
@@ -26,30 +27,30 @@ function NavBar({ bgColor }) {
     <>
       <div style={{ backgroundColor: bgColor }} className={classes.container}>
         <div className={classes.title}>
-          <a href="/">ANGIE JHO LEE</a>
+          <Link to="/">ANGIE JHO LEE</Link>
         </div>
         <ul className={navBarClassName}>
           <li>
-            <a href="/">Home</a>
+            <Link to="/">Home</Link>
           </li>
 
           <li>
-            <a href="/headshots">Headshots</a>
+            <Link to="/headshots">Headshots</Link>
           </li>
           <li>
-            <a href="/reels">Actor Reels</a>
+            <Link to="/reels">Actor Reels</Link>
           </li>
           <li>
-            <a href="/productionBTS">Production & BTS Photos</a>
+            <Link to="/productionBTS">Production & BTS Photos</Link>
           </li>
           <li>
-            <a href="/modeling">Modeling</a>
+            <Link to="/modeling">Modeling</Link>
           </li>
           <li>
-            <a href="/connect">Connect</a>
+            <Link to="/connect">Connect</Link>
           </li>
           <li>
-            <a href="/bio">Bio</a>
+            <Link to="/bio">Bio</Link>
           </li>
         </ul>
       </div>
@@ -69,29 +70,29 @@ function NavBar({ bgColor }) {
 
         <ul className={menuClassName}>
           <li>
-            <a href="/">Home</a>
+            <Link to="/">Home</Link>
           </li>
 
           <li>
-            <a href="/headshots">Headshots</a>
+            <Link to="/headshots">Headshots</Link>
           </li>
           <li>
-            <a href="/reels">Actor Reels</a>
+            <Link to="/reels">Actor Reels</Link>
           </li>
           <li>
-            <a href="/productionBTS">
+            <Link to="/productionBTS">
               Production Stills
               <br />& BTS Photos
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/modeling">Modeling</a>
+            <Link to="/modeling">Modeling</Link>
           </li>
           <li>
-            <a href="/connect">Connect</a>
+            <Link to="/connect">Connect</Link>
           </li>
           <li>
-            <a href="/bio">Bio</a>
+            <Link to="/bio">Bio</Link>
           </li>
         </ul>
       </div>
