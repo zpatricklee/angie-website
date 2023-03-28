@@ -10,15 +10,17 @@ import React from 'react';
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<HomePage />} />
-      <Route path="/angie-website/bio" element={<BioPage />} />
-      <Route path="/connect" element={<ConnectPage />} />
-      <Route path="/headshots" element={<HeadshotsPage />} />
-      <Route path="/reels" element={<ActorReelsPage />} />
-      <Route path="/productionBTS" element={<ProductionBTSPage />} />
-      <Route path="/modeling" element={<ModelingPage />} />
-    </Routes>
+    <BrowserRouter basename="/angie-website">
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/bio" element={<BioPage />} />
+        <Route path="/connect" element={<ConnectPage />} />
+        <Route path="/headshots" element={<HeadshotsPage />} />
+        <Route path="/reels" element={<ActorReelsPage />} />
+        <Route path="/productionBTS" element={<ProductionBTSPage />} />
+        <Route path="/modeling" element={<ModelingPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
