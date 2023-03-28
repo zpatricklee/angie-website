@@ -10,7 +10,7 @@ import React from 'react';
 
 function App() {
   return (
-    <BrowserRouter basename="/angie-website">
+    <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/angie-website/bio" element={<BioPage />} />
       <Route path="/connect" element={<ConnectPage />} />
@@ -18,7 +18,7 @@ function App() {
       <Route path="/reels" element={<ActorReelsPage />} />
       <Route path="/productionBTS" element={<ProductionBTSPage />} />
       <Route path="/modeling" element={<ModelingPage />} />
-    </BrowserRouter>
+    </Routes>
   );
 }
 
