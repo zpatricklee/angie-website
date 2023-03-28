@@ -1,8 +1,8 @@
 {
   "name": "angie-website",
   "version": "0.1.0",
-  "private": false,
-  "homepage": "/angie-website/#",
+  "private": true,
+  "homepage": "https://zpatricklee.github.io/angie-website",
   "dependencies": {
     "@mui/icons-material": "^5.11.11",
     "@testing-library/jest-dom": "^5.16.5",
