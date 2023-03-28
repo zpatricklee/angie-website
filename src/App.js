@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import ConnectPage from './pages/ConnectPage';
 import ModelingPage from './pages/ModelingPage';
@@ -10,15 +10,15 @@ import React from 'react';
 
 function App() {
   return (
-    <Routes>
+    <BrowserRouter basename="/angie-website">
       <Route path="/" element={<HomePage />} />
-      <Route path="/bio" element={<BioPage />} />
+      <Route path="/angie-website/bio" element={<BioPage />} />
       <Route path="/connect" element={<ConnectPage />} />
       <Route path="/headshots" element={<HeadshotsPage />} />
       <Route path="/reels" element={<ActorReelsPage />} />
       <Route path="/productionBTS" element={<ProductionBTSPage />} />
       <Route path="/modeling" element={<ModelingPage />} />
-    </Routes>
+    </BrowserRouter>
   );
 }
 
