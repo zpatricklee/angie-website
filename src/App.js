@@ -1,4 +1,4 @@
-import { Routes, Route, BrowserRouter } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import ConnectPage from './pages/ConnectPage';
 import ModelingPage from './pages/ModelingPage';
@@ -11,7 +11,7 @@ import React from 'react';
 function App() {
   return (
     <Routes>
-      <Route exact path="/" element={<HomePage />} />
+      <Route path="/" element={<HomePage />} />
       <Route path="/bio" element={<BioPage />} />
       <Route path="/connect" element={<ConnectPage />} />
       <Route path="/headshots" element={<HeadshotsPage />} />
