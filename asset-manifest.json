@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/angie-website/static/css/main.d134ef31.css",
-    "main.js": "/angie-website/static/js/main.a057eb0f.js",
+    "main.js": "/angie-website/static/js/main.695d7d7f.js",
     "static/media/angjan-26.jpg": "/angie-website/static/media/angjan-26.9430db3a7034a0fdc1bc.jpg",
     "static/media/angjan-196.jpg": "/angie-website/static/media/angjan-196.ed95d6640364d770f69c.jpg",
     "static/media/AngieJhoLee_Headshot1.jpg": "/angie-website/static/media/AngieJhoLee_Headshot1.5a5b95917c5cb0ce4630.jpg",
     "index.html": "/angie-website/index.html",
     "main.d134ef31.css.map": "/angie-website/static/css/main.d134ef31.css.map",
-    "main.a057eb0f.js.map": "/angie-website/static/js/main.a057eb0f.js.map"
+    "main.695d7d7f.js.map": "/angie-website/static/js/main.695d7d7f.js.map"
   },
   "entrypoints": [
     "static/css/main.d134ef31.css",
-    "static/js/main.a057eb0f.js"
+    "static/js/main.695d7d7f.js"
   ]
 }
