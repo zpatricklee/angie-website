@@ -10,7 +10,7 @@ import React from 'react';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/angie-website">
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/bio" element={<BioPage />} />
