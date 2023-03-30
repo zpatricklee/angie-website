@@ -3,7 +3,7 @@
   position: relative;
   
   height: 100%;
-  width: 100vw;
+  max-width: 100vw;
   /* left: 5%; */
   margin: 0 auto;
   /* top: 20%; */

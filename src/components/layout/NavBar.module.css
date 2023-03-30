@@ -5,7 +5,6 @@
   /* --navbar-bg-color: #A2C4C9; */
   /* --navbar-bg-color: #383533; */
   --navbar-bg-color: #91b1b6;
-  /* overflow: hidden; */
 }
 
 .hamburger-menu {
@@ -14,7 +13,8 @@
 
 .container {
   position: relative;
-  height: 12vh;
+  /* height: 12vh; */
+  height: 154.44px;
   font-family: 'Montserrat', sans-serif;
   color: white;
   width: 100vw;
@@ -26,7 +26,8 @@
 .title {
   text-align: center;
   font-size: 3rem;
-  padding-top: 4vh;
+  /* padding-top: 4vh; */
+  padding-top: 50px;
 }
 
 .nav-bar {
@@ -47,7 +48,7 @@
 
 .menu {
   display: block;
-  position: absolute;
+  position: fixed;
   top: 0;
   right: -500px;
   width: 500px;
@@ -69,7 +70,7 @@
 .menu-button {
   visibility: hidden;
   position: absolute;
-  top: 5vh;
+  top: 62px;
   right: 20px;
   height: 33px;
   width: 33px;
@@ -127,7 +128,8 @@ a:hover {
   }
 
   .container {
-    height: 12vh;
+    /* height: 12vh; */
+    height: 144.23px;
   }
 
   .hamburger-menu {
@@ -146,9 +148,13 @@ a:hover {
 }
 
 @media (max-width: 540px) {
+  .container {
+    height: 120px;
+  }
+
   .title {
     padding-right: 35px;
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
 
   .nav-bar {
@@ -159,8 +165,9 @@ a:hover {
     /* transform: scale(2); */
     visibility: visible;
     position: absolute;
-    top: 4.3vh;
-    right: 25px;
+    /* top: 4.3vh; */
+    top: 50.5px;
+    right: 15px;
     height: 33px;
     width: 33px;
   }
