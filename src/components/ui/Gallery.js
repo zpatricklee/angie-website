@@ -22,9 +22,9 @@ const Gallery = ({props: photos}) => {
           </div>
         ))}
       </div>
-      {/* {currentPhoto && (
+      {currentPhoto && (
         <Modal photoSrc={currentPhoto} onClose={() => setCurrentPhoto(null)} />
-      )} */}
+      )}
     </>
   );
 }
