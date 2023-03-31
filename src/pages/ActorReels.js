@@ -9,9 +9,8 @@ function ActorReelsPage() {
   return (
     <>
       <NavBar />
-      <div className="container">
-        <Card>
-          <div className="videos">
+      <div className={classes.container}>
+          <div className={classes.videos}>
             <iframe
               title="vimeo-player"
               src="https://player.vimeo.com/video/807414030?h=41da508fd1"
@@ -22,9 +21,8 @@ function ActorReelsPage() {
               // text-align="center"
             ></iframe>
           </div>
-        </Card>
-        <Card>
-          <div className="videos">
+
+          <div className={classes.videos}>
             <iframe
               title="vimeo-player"
               src="https://player.vimeo.com/video/807427450?h=11a382b9fa"
@@ -35,7 +33,6 @@ function ActorReelsPage() {
               // text-align="center"
             ></iframe>
           </div>
-        </Card>
       </div>
     </>
   );
