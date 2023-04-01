@@ -56,11 +56,14 @@
   .bio {
     top: 10vh;
     left: 0;
+    padding-top: 10px;
+    padding-bottom: 0px;
     padding-left: 10px;
     padding-right: 10px;
     font-size: 15px;
     width: 93vw;
     margin: auto;
+    line-height: 1.25;
     word-wrap: break-word;
   }
 }
