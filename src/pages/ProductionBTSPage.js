@@ -100,6 +100,46 @@ function ProductionBTSPage(props) {
         imgSrc:
           'https://live.staticflickr.com/65535/52764124822_b62a5cb4b0_z.jpg',
       },
+      {
+        id: 20,
+        imgSrc:
+          'https://live.staticflickr.com/65535/52784978101_3c9f45d786_z.jpg',
+      },
+      {
+        id: 21,
+        imgSrc:
+          'https://live.staticflickr.com/65535/52784427882_6b6bca36af_z.jpg',
+      },
+      {
+        id: 22,
+        imgSrc:
+          'https://live.staticflickr.com/65535/52785216119_1e53b02a83_z.jpg',
+      },
+      {
+        id: 23,
+        imgSrc:
+          'https://live.staticflickr.com/65535/52785216134_1139b8c6e5_z.jpg',
+      },
+      {
+        id: 24,
+        imgSrc:
+          'https://live.staticflickr.com/65535/52785374615_4ae47b24fa_z.jpg',
+      },
+      {
+        id: 25,
+        imgSrc:
+          'https://live.staticflickr.com/65535/52785374625_2a1f68ba55_z.jpg',
+      },
+      {
+        id: 26,
+        imgSrc:
+          'https://live.staticflickr.com/65535/52784978056_0744c3c04a_z.jpg',
+      },
+      {
+        id: 27,
+        imgSrc:
+          'https://live.staticflickr.com/65535/52784428152_0618b25c81_z.jpg',
+      },
     ];
 
   return (

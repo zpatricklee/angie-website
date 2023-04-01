@@ -54,7 +54,17 @@ function HeadshotsPage() {
       id: 10,
       imgSrc:
         'https://live.staticflickr.com/65535/52764669831_5d4ea3dab9_b.jpg',
-    }
+    },
+    {
+      id: 11,
+      imgSrc:
+        'https://live.staticflickr.com/65535/52785374340_aa3a56f0f9_z.jpg',
+    },
+    {
+      id: 12,
+      imgSrc:
+        'https://live.staticflickr.com/65535/52784427972_bab7101f3e_z.jpg',
+    },
   ];
 
   return (

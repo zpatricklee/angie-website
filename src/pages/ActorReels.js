@@ -10,29 +10,41 @@ function ActorReelsPage() {
     <>
       <NavBar />
       <div className={classes.container}>
-          <div className={classes.videos}>
-            <iframe
-              title="vimeo-player"
-              src="https://player.vimeo.com/video/807414030?h=41da508fd1"
-              height="360"
-              width="100%"
-              frameborder="0"
-              allowfullscreen="true"
-              // text-align="center"
-            ></iframe>
-          </div>
+        <div className={classes.videos}>
+          <iframe
+            title="vimeo-player"
+            src="https://player.vimeo.com/video/807414030?h=41da508fd1"
+            height="300"
+            width="100%"
+            frameborder="0"
+            allowfullscreen="true"
+            // text-align="center"
+          ></iframe>
+        </div>
 
-          <div className={classes.videos}>
-            <iframe
-              title="vimeo-player"
-              src="https://player.vimeo.com/video/807427450?h=11a382b9fa"
-              height="360"
-              width="100%"
-              frameborder="0"
-              allowfullscreen="true"
-              // text-align="center"
-            ></iframe>
-          </div>
+        <div className={classes.videos}>
+          <iframe
+            title="vimeo-player"
+            src="https://player.vimeo.com/video/807427450?h=11a382b9fa"
+            height="300"
+            width="100%"
+            frameborder="0"
+            allowfullscreen="true"
+            // text-align="center"
+          ></iframe>
+        </div>
+
+        <div className={classes.videos}>
+          <iframe
+            title="vimeo-player"
+            src="https://player.vimeo.com/video/812267635?h=fee8887778"
+            height="300"
+            width="100%"
+            frameborder="0"
+            allowfullscreen="true"
+            // text-align="center"
+          ></iframe>
+        </div>
       </div>
     </>
   );
