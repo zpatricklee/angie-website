@@ -110,11 +110,6 @@ function ModelingPage() {
     {
       id: 21,
       imgSrc:
-        'https://live.staticflickr.com/65535/52785216034_305ab1d209_z.jpg',
-    },
-    {
-      id: 22,
-      imgSrc:
         'https://live.staticflickr.com/65535/52785374545_11021a5b7b_z.jpg',
     },
   ];
