@@ -26,7 +26,7 @@
 }
 
 .social {
-  height: 200px;
+  height: 100px;
 
   /* flex: 1; */
   padding-top: 50px;
@@ -37,17 +37,12 @@
 
 .imdb {
   font-size: 50px;
-  color: #F5C518;
+  color: #f5c518;
 }
 
 .icon:hover {
   animation: transform(scale(4));
 }
-
-.social a {
-  height: 1000px;
-}
-
 
 @media (max-width: 540px) {
   .container {
@@ -65,12 +60,16 @@
 
 @media (max-height: 660px) {
   .container {
-    /* top: 10vh; */
-    height: 93vh;
+    top: 30vh;
+    /* height: 93vh; */
+    height: 70vh;
     width: 25vw;
-    top: 7vh;
+    /* top: 7vh; */
   }
   .social {
+    /* top: 30vh; */
+    padding-top: 0px;
+    height: 100px;
     transform: scale(0.45);
   }
 }
