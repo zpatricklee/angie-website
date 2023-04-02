@@ -40,9 +40,10 @@
 
 @media (max-width: 1000px) {
   .bio {
-    left: 10px;
+    left: 5px;
     font-size: 18px;
     width: 85vw;
+    padding-left: 10px;
   }
 }
 
