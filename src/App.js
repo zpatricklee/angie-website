@@ -1,4 +1,4 @@
-import { Routes, Route, BrowserRouter } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import ConnectPage from './pages/ConnectPage';
 import ModelingPage from './pages/ModelingPage';
@@ -10,7 +10,7 @@ import React from 'react';
 
 function App() {
   return (
-    // <BrowserRouter>
+
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/bio" element={<BioPage />} />
@@ -20,7 +20,7 @@ function App() {
         <Route path="/productionBTS" element={<ProductionBTSPage />} />
         <Route path="/modeling" element={<ModelingPage />} />
       </Routes>
-    // </BrowserRouter>
+
   );
 }
 
